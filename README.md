@@ -12,12 +12,12 @@ npm install
 ## Running MongoDB
 
 ```
- docker run --name my-mongo -p 27017:27017 -d mongo
+ docker run --name my-mongo -p 27017:27017 -d mongo:8.0.0-rc17-noble
 ```
 
 ## Running RabbitMQ
 ```
-docker run -d --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3
+docker run -d --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:4.0.0-beta.4
 ```
 
 ## Adding a counter for auto-increment id
